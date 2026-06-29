@@ -1,0 +1,645 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "86925789-197e-410f-8674-38ccf16fa914")
+	(paper "A4")
+	(lib_symbols
+		(symbol "problem1:TCA9548A_I2C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TCA9548A_I2C_1_1"
+				(rectangle
+					(start -3.81 8.89)
+					(end 3.81 -12.7)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 5.08 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -5.08 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -8.89 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 11.43 270)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 7.62 180)
+					(length 2.54)
+					(name "SD0"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 6.35 180)
+					(length 2.54)
+					(name "SC0"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 5.08 180)
+					(length 2.54)
+					(name "SD1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 3.81 180)
+					(length 2.54)
+					(name "SC1"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "SD2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name "SC2"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "SD3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "SC3"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "SD4"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name "SC4"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -5.08 180)
+					(length 2.54)
+					(name "SD5"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -6.35 180)
+					(length 2.54)
+					(name "SC5"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -7.62 180)
+					(length 2.54)
+					(name "SD6"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -8.89 180)
+					(length 2.54)
+					(name "SC6"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -10.16 180)
+					(length 2.54)
+					(name "SD7"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -11.43 180)
+					(length 2.54)
+					(name "SC7"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "problem1:TCA9548A_I2C")
+		(at 127 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13ccfac2-0caf-4ce2-9689-a91057809c13")
+		(property "Reference" "U1"
+			(at 128.7067 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 128.7067 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "cb4cfd72-4921-4724-9c14-7e043407a106")
+		)
+		(pin ""
+			(uuid "abe6b452-8888-42da-92d7-7e9c51727c64")
+		)
+		(pin ""
+			(uuid "8eaaebff-80bb-4f3c-923f-4dab34d68a48")
+		)
+		(pin ""
+			(uuid "31bd728e-d278-4a9f-8e51-a84740b8ffa0")
+		)
+		(pin ""
+			(uuid "67109637-c9c6-428c-a8ef-13abd160cc65")
+		)
+		(pin ""
+			(uuid "18de92f6-1d22-4136-b858-2ce64aa3c751")
+		)
+		(pin ""
+			(uuid "73b83421-ecdc-496e-9633-9427b4c7149c")
+		)
+		(pin ""
+			(uuid "64502916-7c8a-4296-a2bc-7c88ade4a4f4")
+		)
+		(pin ""
+			(uuid "b2248e83-b667-4c73-bba5-886cbba3ff6d")
+		)
+		(pin ""
+			(uuid "0884026a-a746-432c-b6c2-921fe7657821")
+		)
+		(pin ""
+			(uuid "f3616a1a-75a8-4977-bbae-d360d127ee23")
+		)
+		(pin ""
+			(uuid "85943c32-c98c-49df-9c2d-8853db514318")
+		)
+		(pin ""
+			(uuid "290daba6-5e00-4dad-b392-2c045c245eb1")
+		)
+		(pin ""
+			(uuid "2e1b3171-880d-41a7-88c2-b32daaa64926")
+		)
+		(pin ""
+			(uuid "7320e156-bc44-4778-ab08-d837d1b793a7")
+		)
+		(pin ""
+			(uuid "11d57223-f949-49b4-851e-7dacc9e6ebbd")
+		)
+		(pin ""
+			(uuid "9b04f1a1-7050-49a2-974c-1b03a6c38955")
+		)
+		(pin ""
+			(uuid "cca0764f-a586-404a-9bcb-db397d5679c2")
+		)
+		(pin ""
+			(uuid "8f0f5c3d-9016-4f20-ab07-678c1e9b3155")
+		)
+		(pin ""
+			(uuid "c12fc912-3275-4f24-96cc-78681ce73443")
+		)
+		(pin ""
+			(uuid "cc0e39da-0b2c-4b55-870d-467ff38a502f")
+		)
+		(pin ""
+			(uuid "af27f779-8e16-438d-8f4c-2493aed50464")
+		)
+		(pin ""
+			(uuid "f0a0e1a9-6c7c-47c2-bfd0-03b7fa04f0b6")
+		)
+		(pin ""
+			(uuid "11568117-14c4-435b-bf36-c8ef28e50113")
+		)
+		(instances
+			(project "tca9548a"
+				(path "/86925789-197e-410f-8674-38ccf16fa914"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
